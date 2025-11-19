@@ -86,4 +86,17 @@ Se listan todos los contenedores Docker activos en el sistema. La salida muestra
 Se conecta al servidor MySQL que corre en el contenedor Docker. Se ejecutan varias peticiones SQL, para seleccionar la base de datos, creación de una tabla “prueba” con id y nombre. El resultado muestra el registro creado.
 ![alt text](https://github.com/michael-hap/Proyecto-final-infraestructura/blob/main/Imagenes/servidorMySQL.png?raw=true)
 
+Se está editando un Dockerfile con nano para construir una imagen personalizada de Nginx. Especifica una imagen base y se copia toda la configuración desde el directorio del host hacia el contenedor.  
+![alt text](https://github.com/michael-hap/Proyecto-final-infraestructura/blob/main/Imagenes/edicionNanoNginx.png?raw=true)
+
+Se construye una imagen Docker personalizada de Nginx a partir de Dockerfile. El proceso muestra todos los pasos y las descargas necesarias de la imagen base nginx. Al completarse, se genera una imagen llamada “minginx” lista para utilizar. 
+![alt text](https://github.com/michael-hap/Proyecto-final-infraestructura/blob/main/Imagenes/construccionImagenNginx.png?raw=true)
+
+A continuación, se ejecuta el contenedor de Nginx usando la imagen personalizada “minginx”. El contenedor se nombra “nginx_container”, vincula el puerto 8082 del host al puerto 80 del contenedor y sube el volumen local hacia la web de Nginx. 
+Se listan todos los contenedores Docker activos en el sistema. Muestra los 3 contenedores creados anteriormente (MySQL, Apache y Nginx). Cada uno con su puerto respectivo y con su funcionamiento correcto. 
+![alt text](https://github.com/michael-hap/Proyecto-final-infraestructura/blob/main/Imagenes/ejecucionContenedorNginx.png?raw=true)
+
+Finalmente, se accede desde el navegador web a las páginas de los contenedores Docker para verificar su correcto funcionamiento. Se visualizan las páginas en los puertos configurados previamente. Cada contenedor está funcionando correctamente. 
+![alt text](https://github.com/michael-hap/Proyecto-final-infraestructura/blob/main/Imagenes/ResultadoNginx.png?raw=true)
+![alt text](https://github.com/michael-hap/Proyecto-final-infraestructura/blob/main/Imagenes/ResultadoApache.png?raw=true)
  
