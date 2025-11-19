@@ -84,6 +84,6 @@ Se listan todos los contenedores Docker activos en el sistema. La salida muestra
 ![alt text](https://github.com/michael-hap/Proyecto-final-infraestructura/blob/main/Imagenes/servidorMySQL.png?raw=true)
 
 Se conecta al servidor MySQL que corre en el contenedor Docker. Se ejecutan varias peticiones SQL, para seleccionar la base de datos, creación de una tabla “prueba” con id y nombre. El resultado muestra el registro creado.
-![alt text](https://github.com/michael-hap/Proyecto-final-infraestructura/blob/main/Imagenes/servidorMySQL.png ?raw=true)
+![alt text](https://github.com/michael-hap/Proyecto-final-infraestructura/blob/main/Imagenes/servidorMySQL.png?raw=true)
 
  
