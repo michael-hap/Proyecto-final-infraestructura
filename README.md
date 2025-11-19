@@ -8,3 +8,5 @@ Ahora se “activan” los discos agregados anteriormente.
 
 Listamos los discos con el comando sudo fdisk -l 
 ![alt text](https://github.com/michael-hap/Proyecto-final-infraestructura/blob/main/Imagenes/discosListados1.png?raw=true)
+
+![alt text](https://github.com/michael-hap/Proyecto-final-infraestructura/blob/main/Imagenes/discosListados2.png?raw=true)
