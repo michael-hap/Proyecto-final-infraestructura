@@ -79,7 +79,8 @@ Se está editando un Dockerfile con nano para construir una imagen personalizada
 Se construye una imagen Docker personalizada de MySQL a partir de Dockfile. Esto muestra los diferentes pasos junto con la descarga y las diferentes instalaciones. Al finalizar, se genera una imagen llamada “mimysql” lista para ser utilizada en los contenedores. 
 ![alt text](https://github.com/michael-hap/Proyecto-final-infraestructura/blob/main/Imagenes/construccionImagenDockerMySQL.png?raw=true)
 
-Se listan todos los contenedores Docker activos en el sistema. La salida muestra los contenedores en ejecución, las imágenes utilizadas, el tiempo de creación, etc. También se observa el arranque del contenedor MySQL con configuraciones específicas. 
+Se listan todos los contenedores Docker activos en el sistema. La salida muestra los contenedores en ejecución, las imágenes utilizadas, el tiempo de creación, etc. También se observa el arranque del contenedor MySQL con configuraciones específicas.
+
 ![alt text](https://github.com/michael-hap/Proyecto-final-infraestructura/blob/main/Imagenes/servidorMySQL.png?raw=true)
 
 Se conecta al servidor MySQL que corre en el contenedor Docker. Se ejecutan varias peticiones SQL, para seleccionar la base de datos, creación de una tabla “prueba” con id y nombre. El resultado muestra el registro creado.
