@@ -12,3 +12,7 @@ Listamos los discos con el comando sudo fdisk -l
 ![alt text](https://github.com/michael-hap/Proyecto-final-infraestructura/blob/main/Imagenes/discosListados2.png?raw=true)
 
 ![alt text](https://github.com/michael-hap/Proyecto-final-infraestructura/blob/main/Imagenes/discosListados3.png?raw=true)
+
+![alt text](https://github.com/michael-hap/Proyecto-final-infraestructura/blob/main/Imagenes/creacionRAIDS.png?raw=true)
+
+
