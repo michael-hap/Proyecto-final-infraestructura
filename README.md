@@ -70,4 +70,19 @@ A continuación, se monta un contenedor usando la imagen personalizada “miapac
 Se montaron tres directorios locales en puntos cruciales del sistema. Se vincularon los volúmenes lógicos LVM con directorios específicos para que puedan ser utilizados por los servicios de Apache, MySQL y Nginx respectivamente. 
 ![alt text](https://github.com/michael-hap/Proyecto-final-infraestructura/blob/main/Imagenes/vinculacionLVMDirectorios.png?raw=true)
 
+Se está editando un archivo de configuración con nano que contiene lo del SQL. Las instrucciones incluyen información para crear una base de datos, para otorgar permisos de acceso, etc. Este archivo será ejecutado para configurar la base de datos. 
+![alt text](https://github.com/michael-hap/Proyecto-final-infraestructura/blob/main/Imagenes/edicionNanoSQL.png?raw=true)
+
+Se está editando un Dockerfile con nano para construir una imagen personalizada de MySQL. Especifica la imagen base y utiliza el comando copy para copiar todo el archivo desde el host a el contenedor. Permite las conexiones a la base de datos. 
+![alt text](https://github.com/michael-hap/Proyecto-final-infraestructura/blob/main/Imagenes/nanoDockerfileMySQL.png?raw=true)
+
+Se construye una imagen Docker personalizada de MySQL a partir de Dockfile. Esto muestra los diferentes pasos junto con la descarga y las diferentes instalaciones. Al finalizar, se genera una imagen llamada “mimysql” lista para ser utilizada en los contenedores. 
+![alt text](https://github.com/michael-hap/Proyecto-final-infraestructura/blob/main/Imagenes/construccionImagenDockerMySQL.png?raw=true)
+
+Se listan todos los contenedores Docker activos en el sistema. La salida muestra los contenedores en ejecución, las imágenes utilizadas, el tiempo de creación, etc. También se observa el arranque del contenedor MySQL con configuraciones específicas. 
+![alt text](https://github.com/michael-hap/Proyecto-final-infraestructura/blob/main/Imagenes/listadoContenedoresDocker.png?raw=true)
+
+Se conecta al servidor MySQL que corre en el contenedor Docker. Se ejecutan varias peticiones SQL, para seleccionar la base de datos, creación de una tabla “prueba” con id y nombre. El resultado muestra el registro creado.
+![alt text](https://github.com/michael-hap/Proyecto-final-infraestructura/blob/main/Imagenes/servidorMySQL.png ?raw=true)
+
  
