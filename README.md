@@ -23,7 +23,7 @@ RAID3: sdh, sdi, sdj
 ![alt text](https://github.com/michael-hap/Proyecto-final-infraestructura/blob/main/Imagenes/creacionRAIDS.png?raw=true)
 
 Listamos los archivos especiales que representan los dispositivos de hardware y otros recursos del sistema. 
-![alt text](https://github.com/michael-hap/Proyecto-final-infraestructura/blob/main/Imagenes/ListadoArchivosEspeciales.png?raw=true)
+![alt text](https://github.com/michael-hap/Proyecto-final-infraestructura/blob/main/Imagenes/listadoArchivosEspeciales.png?raw=true)
 
 
 
